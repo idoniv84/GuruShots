@@ -40,7 +40,7 @@ myApp.directive("homePage", function() {
             200
           );
         $(".item3, .item5, .item7")
-          .delay(400)
+          .delay(300)
           .animate(
             {
               opacity: 1
@@ -48,7 +48,7 @@ myApp.directive("homePage", function() {
             200
           );
         $(".item6, .item8, .item9")
-          .delay(600)
+          .delay(400)
           .animate(
             {
               opacity: 1

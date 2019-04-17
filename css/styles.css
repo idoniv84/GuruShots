@@ -1,0 +1,245 @@
+html {
+  height: 100%;
+}
+body {
+  min-height: 100%;
+  margin: 0px;
+}
+.title {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 3em;
+  font-weight: 800;
+  grid-row: 1;
+  align-self: start;
+}
+.sub-title {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.3em;
+  font-weight: 500;
+  grid-row: 2;
+  margin-top: 20px;
+}
+.join {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1em;
+  font-weight: 600;
+  grid-row: 3;
+  align-self: end;  
+}
+.mainContainer {
+  display: grid;
+  grid-template-rows: repeat(3, 100vh);
+  grid-template-columns: 50% 50%;
+  grid-row-gap: 100px;
+  align-items: end;
+}
+.textContainer1 {
+  display: grid;
+  grid-column: 1;
+  grid-row: 1;
+  align-self: center;
+  justify-self: center;
+  grid-template-rows: 0.35fr 0.35fr 0.3fr;
+  grid-template-columns: 470px;
+  grid-row-gap: 10px;
+  position: relative;  
+}
+.textContainer2 {
+  display: grid;
+  grid-column: 2;
+  grid-row: 2;
+  align-self: center;
+  justify-self: center;
+  grid-template-rows: 0.35fr 0.35fr 0.3fr;
+  grid-template-columns: 460px;
+  grid-row-gap: 10px;
+  position: relative;
+}
+.textContainer3 {
+  display: grid;
+  grid-column: 1;
+  grid-row: 3;
+  align-self: center;
+  justify-self: center;
+  grid-template-rows: 0.35fr 0.35fr 0.3fr;
+  grid-template-columns: 460px;
+  grid-row-gap: 10px;
+  position: relative;
+  opacity: 0;
+  margin-top: 30px;
+}
+
+.img1 {
+  grid-column: 2;
+  width: 100%;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  align-self: stretch;
+}
+.img2 {
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-columns: repeat(3, 1fr);
+  grid-column: 1;    
+  margin-top: 100px;
+  margin-bottom: 50px;
+  margin-right: 80px;
+  align-self: stretch;
+  grid-row-gap: 10px;
+  grid-column-gap: 10px;
+  position:relative;
+}
+.img3 {
+  grid-column: 2;
+  width: 100%;
+  margin-top: 110px;
+  margin-right: 15px;
+  margin-bottom: 50px;
+  align-self: stretch;
+}
+.item1 {
+    grid-column: 1;
+    grid-row: 1;
+    align-self: stretch;
+    width: 100%;
+    z-index: 1; 
+    opacity: 0;   
+}
+.item2 {
+    grid-column: 2;
+    grid-row: 1;
+    align-self: stretch;
+    width: 100%;
+    opacity: 0;
+}
+.item3 {
+    grid-column: 3;
+    grid-row: 1;
+    align-self: stretch;
+    width: 100%;
+    opacity: 0;
+}
+.item4 {
+    grid-column: 1;
+    grid-row: 2;
+    align-self: stretch;
+    width: 100%;
+    opacity: 0;
+}
+.item5 {
+    grid-column: 2;
+    grid-row: 2;
+    align-self: stretch;
+    width: 100%;
+    opacity: 0;
+}
+.item6 {
+    grid-column: 3;
+    grid-row: 2;
+    align-self: stretch;
+    width: 100%;
+    z-index: 1;
+    opacity: 0;
+}
+.item7 {
+    grid-column: 1;
+    grid-row: 3;
+    align-self: stretch;
+    width: 100%;
+    z-index: 1;
+    opacity: 0;
+}
+.item8 {
+    grid-column: 2;
+    grid-row: 3;
+    align-self: stretch;
+    width: 100%;
+    opacity: 0;
+}
+.item9 {
+    grid-column: 3;
+    grid-row: 3;
+    align-self: stretch;
+    width: 100%;
+    opacity: 0;
+}
+.gurushots1 {
+    width:15%;
+    position: absolute;
+    top: 8%;
+    left: 8%;
+    z-index: 2;
+    opacity: 0;
+}
+.gurushots2 {
+    width:15%;    
+    position: absolute;
+    top: 42%;
+    left: 76%;
+    z-index: 2;
+    opacity: 0;
+}
+.gurushots3 {
+    width:15%;    
+    position: absolute;
+    top: 77%;
+    left: 8%;
+    z-index: 2;
+    opacity: 0;
+}
+.bar {
+  width: 100%;
+  height: 65px;
+  max-height: 65px;
+  position: fixed;
+  background-color: black;
+  top: 0;
+  left: 0; 
+  z-index: 10; 
+}
+.guru {
+  color: white;
+  font-size: 24px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;  
+}
+.icon{
+    height: 28px;    
+    vertical-align: bottom    
+}
+.menu {
+    margin-top: 18px;
+    margin-left: 80px; 
+    display: flex;
+    flex-direction: row;
+      
+}
+.menuItems{   
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;   
+    color: white;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    margin-left:20px;
+    margin-top: 5px;
+    width: 40%;   
+    
+}
+.logo {
+    width: 20%;
+    padding-right: 45vh;
+}
+.arrow {
+    width: 27px;
+    position: absolute;
+    top: 97%;
+    left: 31%;
+}
+.signup {
+    border-radius: 5px;
+    border: solid 2px white;
+    padding: 0 5px 0 5px;
+    
+}
